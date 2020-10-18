@@ -172,7 +172,7 @@ void nominal_servo_pwm(const double & servo_range = 270, const int & min_pwm = 5
   // Shoulders
   FL_Shoulder.AssemblyInit(2, min_pwm, max_pwm);
   FR_Shoulder.AssemblyInit(5, min_pwm, max_pwm);
-  BL_Shoulder.AssemblyInit(8, min_pwm, max_pwm);
+  BL_Shoulder.AssemblyInit(14, min_pwm, max_pwm);
   BR_Shoulder.AssemblyInit(11, min_pwm, max_pwm);
   
   //Elbows
@@ -284,7 +284,7 @@ void setup()
     double shoulder_liedown = 0.0;
     FL_Shoulder.Initialize(2, 135 + shoulder_liedown, 135, -7.25, FL, Shoulder, 500, 2400); // 0 | 0: STRAIGHT | 90: OUT | -90 IN
     FR_Shoulder.Initialize(5, 135 - shoulder_liedown, 135, -5.5, FR, Shoulder, 500, 2400);  // 1 | 0: STRAIGHT | 90: IN  | -90 OUT
-    BL_Shoulder.Initialize(8, 135 + shoulder_liedown, 135, 5.75, BL, Shoulder, 500, 2400);  // 2 | 0: STRAIGHT | 90: OUT | -90 IN
+    BL_Shoulder.Initialize(14, 135 + shoulder_liedown, 135, 5.75, BL, Shoulder, 500, 2400);  // 2 | 0: STRAIGHT | 90: OUT | -90 IN
     BR_Shoulder.Initialize(11, 135 - shoulder_liedown, 135, -4.0, BR, Shoulder, 500, 2400); // 3 | 0: STRAIGHT | 90: IN  | -90 OUT
     
     //Elbows
