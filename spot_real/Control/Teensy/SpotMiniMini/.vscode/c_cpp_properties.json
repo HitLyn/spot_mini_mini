@@ -6,7 +6,6 @@
         {
             "name": "Linux",
             "includePath": [
-                "/homeL/lin/.platformio/packages/tool-unity",
                 "/homeL/lin/HitLyn/spot_mini_mini/spot_real/Control/Teensy/SpotMiniMini/lib/ContactSensor",
                 "/homeL/lin/HitLyn/spot_mini_mini/spot_real/Control/Teensy/SpotMiniMini/lib/IMU",
                 "/homeL/lin/HitLyn/spot_mini_mini/spot_real/Control/Teensy/SpotMiniMini/lib/Kinematics",
@@ -118,12 +117,12 @@
                 "/homeL/lin/HitLyn/spot_mini_mini/spot_real/Control/Teensy/SpotMiniMini/include",
                 "/homeL/lin/HitLyn/spot_mini_mini/spot_real/Control/Teensy/SpotMiniMini/src",
                 "/homeL/lin/.platformio/packages/framework-arduinoteensy/cores/teensy4",
+                "/homeL/lin/.platformio/packages/tool-unity",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/homeL/lin/.platformio/packages/tool-unity",
                     "/homeL/lin/HitLyn/spot_mini_mini/spot_real/Control/Teensy/SpotMiniMini/lib/ContactSensor",
                     "/homeL/lin/HitLyn/spot_mini_mini/spot_real/Control/Teensy/SpotMiniMini/lib/IMU",
                     "/homeL/lin/HitLyn/spot_mini_mini/spot_real/Control/Teensy/SpotMiniMini/lib/Kinematics",
@@ -235,6 +234,7 @@
                     "/homeL/lin/HitLyn/spot_mini_mini/spot_real/Control/Teensy/SpotMiniMini/include",
                     "/homeL/lin/HitLyn/spot_mini_mini/spot_real/Control/Teensy/SpotMiniMini/src",
                     "/homeL/lin/.platformio/packages/framework-arduinoteensy/cores/teensy4",
+                    "/homeL/lin/.platformio/packages/tool-unity",
                     ""
                 ]
             },
